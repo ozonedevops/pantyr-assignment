@@ -9,12 +9,12 @@ After installation is complete, you can start the app by either `npm start` or `
 Once you're done with the assignment, create a PR to merge in the `main` branch of this repository.
 
 ## Assignment
-Our store sells products, but currently there is no way to order any products. Your assignment is to implement:
-- a paginated endpoint that returns a list of products
-- an endpoint to place orders
-
-You can build a REST API or GraphQL API, the choice is yours.
+Our store sells products, but currently there is no way for customers to place any orders. Your assignment is to implement a GraphQL API with the following:
+- a paginated query that returns a list of products
+- a mutation to place orders
 
 Our database consists of JSON files in the `db` folder. We currently have a collection of [products](./db/products.json) and an [empty collection](./db/orders.json) for our incoming orders. You can read the JSON files into memory (since there aren't that many items) or you can setup an actual database and use those files as your seed data.
 
-*Bonus points if you use the Repository Pattern.*
+*Bonus points: Apply filtering and ordering to the products list*
+
+*Super bonus points: Add extra queries/mutations that would be fitting for a web store*
