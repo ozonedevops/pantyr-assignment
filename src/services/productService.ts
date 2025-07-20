@@ -14,6 +14,7 @@ export async function getProducts(): Promise<IProduct[]> {
   return parsed.map(p => ({ ...p, stock: p.stock ?? 100 }));
 }
 
+// Save products to JSON file
 export async function saveProducts(products: IProduct[]): Promise<void> {
   await fs.writeFile(productsPath, JSON.stringify(products, null, 2), 'utf-8');
 }
