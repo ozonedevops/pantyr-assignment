@@ -50,6 +50,11 @@ export default buildSchema(`
     quantity: Int!
   }
 
+  input ProductMultiOrderInput {
+  productId: Int!
+  quantity: Int!
+  }
+
   type Order {
     id: Int!
     products: [Int!]!
@@ -77,6 +82,7 @@ export default buildSchema(`
 
   type Mutation {
     placeOrder(products: [ProductOrderInput!]!, orderedBy: String!): Order!
+    placeMultiOrder(products: [ProductMultiOrderInput!]!, orderedBy: String!): Order!
     updateProductStock(productId: Int!, stock: Int!): Product!
     updateProductPrice(productId: Int!, price: Float!): Product!
     updateProductTitle(productId: Int!, title: String!): Product!
