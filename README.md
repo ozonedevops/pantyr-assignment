@@ -45,6 +45,9 @@ Implemented GraphQL API with the following:
 - a mutation to update product title (validate title is not empty)
 - a mutation to add new product (validate stock is positive integer, price is positive, title is not empty, auto assign product ID)
 
+### Mega Bonus?
+- Frontend that makes use of this GraphQL API: https://github.com/ozonedevops/pantyr-assignment-frontend 
+
 ## Usage
 - clone the https://github.com/ozonedevops/pantyr-assignment repository to your machine
 - install nodeJS `https://nodejs.org/en/download`
