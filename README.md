@@ -47,8 +47,9 @@ Implemented GraphQL API with the following:
 
 ## Usage
 - clone the https://github.com/ozonedevops/pantyr-assignment repository to your machine
-- install dependencies (run `npm i` )
-- After installation is complete, you can start the app by either `npm start` or `npm start:watch`
+- install nodeJS `https://nodejs.org/en/download`
+- open a terminal in the pantyr-assignment directory and install the dependencies (run `npm i` )
+- After installation is complete, you can start the app by `npm run start:watch`
 - open a browser and go to: `http://localhost:3000/` This wil open ruru for testing the GraphQL api created in the Pantyr assignment.
 - for direct interfacing with the API use `http://localhost:3000/graphql`
 
