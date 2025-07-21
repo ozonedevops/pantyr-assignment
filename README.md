@@ -45,3 +45,12 @@ Implemented GraphQL API with the following:
 - a mutation to update product title (validate title is not empty)
 - a mutation to add new product (validate stock is positive integer, price is positive, title is not empty, auto assign product ID)
 
+## Usage
+- clone the https://github.com/ozonedevops/pantyr-assignment repository to your machine
+- install dependencies (run `npm i` )
+- After installation is complete, you can start the app by either `npm start` or `npm start:watch`
+- open a browser and go to: `http://localhost:3000/` This wil open ruru for testing the GraphQL api created in the Pantyr assignment.
+- for direct interfacing with the API use `http://localhost:3000/graphql`
+
+## Preview
+![Screenshot of ruru explorer for testing GraphQL API.](/screenshots/Pantyr-assignment-GraphQL-test-using-ruru.png)
